@@ -1,0 +1,33 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="film" type="filmType"/>
+    <xs:element name="roles" type="rolesType"/>
+    <xs:element name="role" type="roleType"/>
+    <xs:element name="mes" type="mesType"/>
+
+    <xs:complexType name='filmType'>
+        <xs:sequence>
+            <xs:element name='title' type='xs:string'/>
+            <xs:element name='genre' type='xs:string'/>
+            <xs:element name='country' type='xs:string'/>
+            <xs:element name='resume' type='xs:string'/>
+            <xs:element ref='roles'/>
+            <xs:element ref='mes' minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+        <xs:attribute name='Annee' type='xs:integer'/>
+    </xs:complexType>
+
+    <xs:complexType name='rolesType'>
+        <xs:sequence>
+            <xs:element ref='role' minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name='roleType'>
+        <xs:attribute name='artisteid' type='xs:integer'/>
+    </xs:complexType>
+    <xs:complexType name='mesType'>
+        <xs:attribute name='idref' type='xs:integer'/>
+    </xs:complexType>
+
+</xs:schema>
