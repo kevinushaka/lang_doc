@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE cv SYSTEM "cv.dtd">
+
+<cv>
+	<titre></titre>
+
+	<cvnom></cvnom>
+
+	<etatcivil>
+		<nom>Ushaka Kubwawe</nom>
+		<prenom>Kévin</prenom>
+		<naissance>17/12/1998</naissance>
+		<situation>Célibataire</situation>
+		<adresse>Rue Frédéric Mistral</adresse>
+		<code_postal>06650</code_postal>
+		<ville>Valbonne</ville>
+		<pays>France</pays>
+		<telephone></telephone>
+		<email></email>
+	</etatcivil>
+	<formations>
+		<formation date-iso="" date="" intitule="Ecole d'Ingénieur Polytech Nice Sophia" />
+		<formation date-iso="" date="" intitule="IUT Le Puy en Velay" />
+		<formation date-iso="" date="" intitule="Cycle Préparatoire Scientique" />
+	</formations>
+	<connaissances>
+		<technique type="0" nom="Java" />
+		<technique type="0" nom="C++" />
+		<technique type="0" nom="MySQL" />
+		<langue nom="Français" niveau="Courant" />
+		<langue nom="Anglais" niveau="Courant" />
+		<langue nom="Coréen" niveau="Courant" />
+		<langue nom="Chinois" niveau="Notions élémentaires." />
+	</connaissances>
+
+	<professionnel>
+		<experience date-iso="" date="" entreprise="Université de Zhaoqing" fonction="Développeur Unreal Engine">
+			<missions>
+				<mission>Développement d'une application de visite virtuelle.</mission>
+			</missions>
+			<environnement>
+				<technique type="0" nom="Unreal Engine" />
+				<technique type="0" nom="Windows10" />
+			</environnement>
+		</experience>
+	</professionnel>
+
+</cv>
